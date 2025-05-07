@@ -1,47 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+<testng-results total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-10-02T10:35:24 IST" name="Default suite" finished-at="2024-10-02T10:35:33 IST" duration-ms="9340">
+  <suite started-at="2025-05-07T14:22:25Z" name="Default suite" finished-at="2025-05-07T14:22:29Z" duration-ms="3597">
     <groups>
-      <group name="cucumber">
-        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:CucumberOptions.TestNGRunner@477b4cdf]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
-      </group> <!-- cucumber -->
     </groups>
-    <test started-at="2024-10-02T10:35:24 IST" name="Default test" finished-at="2024-10-02T10:35:33 IST" duration-ms="9340">
-      <class name="CucumberOptions.TestNGRunner">
-        <test-method is-config="true" signature="setUpClass(org.testng.ITestContext)[pri:0, instance:CucumberOptions.TestNGRunner@477b4cdf]" started-at="2024-10-02T10:35:24 IST" name="setUpClass" finished-at="2024-10-02T10:35:25 IST" duration-ms="728" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[org.testng.TestRunner@60737b23]]>
-              </value>
-            </param>
-          </params>
+    <test started-at="2025-05-07T14:22:25Z" name="Default test" finished-at="2025-05-07T14:22:29Z" duration-ms="3597">
+      <class name="Request.dataWithPojo">
+        <test-method is-config="true" signature="authintcation()[pri:0, instance:Request.dataWithPojo@7eecb5b8]" started-at="2025-05-07T19:52:25Z" name="authintcation" finished-at="2025-05-07T19:52:26Z" duration-ms="813" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- setUpClass -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:CucumberOptions.TestNGRunner@477b4cdf]" started-at="2024-10-02T10:35:25 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-10-02T10:35:33 IST" duration-ms="8516" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA["Admin page login"]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA["Application login."]]>
-              </value>
-            </param>
-          </params>
+        </test-method> <!-- authintcation -->
+        <test-method signature="postRequestWithPojo()[pri:0, instance:Request.dataWithPojo@7eecb5b8]" started-at="2025-05-07T19:52:26Z" name="postRequestWithPojo" finished-at="2025-05-07T19:52:29Z" duration-ms="2766" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- runScenario -->
-        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:CucumberOptions.TestNGRunner@477b4cdf]" started-at="2024-10-02T10:35:33 IST" name="tearDownClass" finished-at="2024-10-02T10:35:33 IST" duration-ms="39" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDownClass -->
-      </class> <!-- CucumberOptions.TestNGRunner -->
+        </test-method> <!-- postRequestWithPojo -->
+      </class> <!-- Request.dataWithPojo -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
