@@ -1,4 +1,4 @@
-package Request;
+package Day2;
 
 public class pojoData {
 	

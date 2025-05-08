@@ -1,9 +1,10 @@
-package Request;
+package Day2;
 import static io.restassured.RestAssured.*;
 import static org.hamcrest.Matchers.*;
 import org.json.JSONObject;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Test;
+
 import io.restassured.RestAssured;
 import io.restassured.response.Response;
 import io.restassured.specification.RequestSpecification;

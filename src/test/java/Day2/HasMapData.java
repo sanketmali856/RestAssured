@@ -1,4 +1,4 @@
-package Request;
+package Day2;
 import static io.restassured.RestAssured.*;
 import static org.hamcrest.Matchers.*;
 

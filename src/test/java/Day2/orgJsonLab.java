@@ -1,20 +1,15 @@
-package Request;
+package Day2;
 import static io.restassured.RestAssured.*;
 import static org.hamcrest.Matchers.*;
-
-import java.io.File;
-import java.io.FileNotFoundException;
-import java.io.FileReader;
-
 import org.json.JSONObject;
-import org.json.JSONTokener;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Test;
 import io.restassured.RestAssured;
 import io.restassured.response.Response;
+import io.restassured.response.ResponseBody;
 import io.restassured.specification.RequestSpecification;
 
-public class externalJsonData {
+public class orgJsonLab {
 	RequestSpecification requs;
 	int id;
 	
@@ -27,12 +22,11 @@ public class externalJsonData {
 	}
 	
 	@Test
-	void postRequestDataFromExternalJSON() throws FileNotFoundException {	
+	void postRequestOrgJsonLab() {	
 	
-		File fl = new File("C:\\Users\\Shubham Shetti\\eclipse-workspace\\Automation\\src\\test\\resources\\data.json");
-		FileReader fr = new FileReader(fl);
-		JSONTokener tr = new JSONTokener(fr);
-		JSONObject data = new JSONObject(tr);
+		JSONObject data = new JSONObject();
+		data.put("name", "cool");
+        data.put("job", "develper");
 	 
       Response res = 
        requs
@@ -43,12 +37,14 @@ public class externalJsonData {
 	 	
      res.then()
 	 	 .statusCode(201)
-	 	 .body("name",equalTo("sanket"))
+	 	 .body("name",equalTo("cool"))
 	 	 .log().all();
      
      id = res.jsonPath().getInt("id");
-     System.out.println(id+"= this is id ");
+     System.out.println(id+" == this is id ");
 	}
+	
+
 	
 	void deletRequest() {
 		given()
