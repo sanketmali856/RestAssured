@@ -2,20 +2,20 @@
 <testng-results total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-05-07T14:22:25Z" name="Default suite" finished-at="2025-05-07T14:22:29Z" duration-ms="3597">
+  <suite started-at="2025-05-08T05:50:18Z" name="Default suite" finished-at="2025-05-08T05:50:21Z" duration-ms="3220">
     <groups>
     </groups>
-    <test started-at="2025-05-07T14:22:25Z" name="Default test" finished-at="2025-05-07T14:22:29Z" duration-ms="3597">
-      <class name="Request.dataWithPojo">
-        <test-method is-config="true" signature="authintcation()[pri:0, instance:Request.dataWithPojo@7eecb5b8]" started-at="2025-05-07T19:52:25Z" name="authintcation" finished-at="2025-05-07T19:52:26Z" duration-ms="813" status="PASS">
+    <test started-at="2025-05-08T05:50:18Z" name="Default test" finished-at="2025-05-08T05:50:21Z" duration-ms="3220">
+      <class name="Request.externalJsonData">
+        <test-method is-config="true" signature="authintcation()[pri:0, instance:Request.externalJsonData@7eecb5b8]" started-at="2025-05-08T11:20:18Z" name="authintcation" finished-at="2025-05-08T11:20:19Z" duration-ms="793" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- authintcation -->
-        <test-method signature="postRequestWithPojo()[pri:0, instance:Request.dataWithPojo@7eecb5b8]" started-at="2025-05-07T19:52:26Z" name="postRequestWithPojo" finished-at="2025-05-07T19:52:29Z" duration-ms="2766" status="PASS">
+        <test-method signature="postRequestOrgJsonLab()[pri:0, instance:Request.externalJsonData@7eecb5b8]" started-at="2025-05-08T11:20:19Z" name="postRequestOrgJsonLab" finished-at="2025-05-08T11:20:21Z" duration-ms="2402" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- postRequestWithPojo -->
-      </class> <!-- Request.dataWithPojo -->
+        </test-method> <!-- postRequestOrgJsonLab -->
+      </class> <!-- Request.externalJsonData -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
